@@ -7,10 +7,14 @@ There are two CLI tools you can use when creating your React Native App.
 ### Expo CLI
 Expo adds a thin layer around the React Native framework which exposes a simpler API for developers to work with, especially when it comes to  integrating with a devices native components, like the camera.
 
+[Expo - Getting Started](https://docs.expo.dev/get-started/installation/)
+
+
 ### React Native CLI
 You will be responsible for add each module required for integrating with device native components, but you have more granularity over how you can integrate with the component.
 
 It does add complexity, so only use this if you know you'll need specialised functionality in your solution.
+[Reactive Native Introduction](https://reactnative.dev/docs/getting-started)
 
 # Create a new React Native application
 We will be using Expo CLI, since the applications we are building don't have any specialised functionality.
@@ -72,6 +76,16 @@ Reactive is a lot more bare bone compared to other frameworks like Ionic and Flu
 - High dependencies on third-party packages (that also change)
   - Luckily Expo removes this problem from you mostly, since it integrates with most native mobile components already!
 - Bugs / Workarounds required
+
+# Comparison between Mobile development frameworks
+The following article compares three popular mobile development frameworks
+- React Native
+- Flutter
+- Ionic
+- Nativescript
+- PWA
+
+[Mobile Dev Frameworks Comparison](https://academind.com/tutorials/react-native-vs-flutter-vs-ionic-vs-nativescript-vs-pwa)
 
 # Git SSH authentication using a differnt public key
 
